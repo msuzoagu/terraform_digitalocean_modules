@@ -5,7 +5,7 @@
 
 variable "region" {
   description = "region where droplet is launched/kind of its datacenter"
-  default     = "ams3"
+  default     = "nyc1"
 }
 
 variable "ipv6" {

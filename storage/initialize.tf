@@ -1,6 +1,3 @@
-# Initialize.tf contains empty variable declarations whose values will be defined in 
-# each environment or resources .tfvars file
-
 variable "env" {}
 
 variable "name" {
@@ -8,7 +5,7 @@ variable "name" {
 }
 
 variable "region" {
-  description = "block storage must be provisioned in same region as corresponding droplets -use droplet modulet output to derive value"
+  description = "must be in same region as corresponding droplets -use droplet modulet output to derive value"
 }
 
 variable "count" {

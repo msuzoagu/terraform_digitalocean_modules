@@ -14,6 +14,6 @@ variable "ssh_keys" {
   type = "list"
 }
 
-variable "image" {
+variable "droplet_image" {
   description = "An Image ID to deploy the Disk from"
 }
