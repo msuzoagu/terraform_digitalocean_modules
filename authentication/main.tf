@@ -5,6 +5,7 @@
 # configured (via ansible) a new 
 # ssh is added for admin user and 
 # root ssh key is disabled
-data "digitalocean_ssh_key" "provision" {
+data "digitalocean_ssh_key" "name" {
   name = "${var.ssh_key}"
 }
+
