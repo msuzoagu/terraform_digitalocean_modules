@@ -9,6 +9,10 @@ output "id" {
   value = "${digitalocean_droplet.node.*.id}"
 }
 
+output "urn" {
+  value = "${digitalocean_droplet.node.*.urn}"
+}
+
 output "name" {
   value = "${digitalocean_droplet.node.*.name}"
 }
